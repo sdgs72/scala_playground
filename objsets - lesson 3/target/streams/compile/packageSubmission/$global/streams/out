@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0mPackaging /Users/dionhiananto/Desktop/github/scala_playground/objsets - lesson 3/target/scala-2.11/progfun1-objsets_2.11-0.1-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	objsets/notes.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/dionhiananto/Desktop/github/scala_playground/objsets - lesson 3/src/main/scala/objsets/notes.scala[0m
+[0m[[0mdebug[0m] [0m	objsets/TweetData.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/dionhiananto/Desktop/github/scala_playground/objsets - lesson 3/src/main/scala/objsets/TweetData.scala[0m
+[0m[[0mdebug[0m] [0m	objsets/TweetReader.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/dionhiananto/Desktop/github/scala_playground/objsets - lesson 3/src/main/scala/objsets/TweetReader.scala[0m
+[0m[[0mdebug[0m] [0m	objsets/TweetSet.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/dionhiananto/Desktop/github/scala_playground/objsets - lesson 3/src/main/scala/objsets/TweetSet.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
