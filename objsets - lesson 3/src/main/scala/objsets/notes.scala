@@ -73,7 +73,7 @@ class notes {
     }
 
     def union(other : IntSet)  : IntSet = {
-      //  ( (left union right) union other) incl elem
+      //  ( (left union right) union other) incl elem << THE PARAN THESIS IS VERY IMPORTANT
       left.union(right).union(other).incl(elem)
     }
   }

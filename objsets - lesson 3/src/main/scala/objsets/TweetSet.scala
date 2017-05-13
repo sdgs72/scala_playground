@@ -152,13 +152,20 @@ class Empty extends TweetSet {
 class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
 
   /*
-  too much memory
   override def filter(p : Tweet => Boolean) : TweetSet = {
     if(p(elem))
       left.filter(p).union(right.filter(p)).incl(elem)
     else
       left.filter(p).union(right.filter(p))
   }
+
+  def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet = {
+    if(p(elem))
+      left.filterAcc(p,right.filterAcc(p,acc incl elem))
+    else
+      left.filterAcc(p,right.filterAcc(p,acc))
+  }
+
   */
 
   def filter(p:Tweet => Boolean) : TweetSet = {
@@ -166,45 +173,98 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
   }
 
  def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet = {
-    if (p(elem))
-      left.filterAcc(p,right.filterAcc(p,acc incl elem))
-    else
-      left.filterAcc(p,right.filterAcc(p,acc))
+   var ans = acc
+    foreach(
+      (x : Tweet) => {
+        if(p(x))
+          ans = ans.incl(x)
+      }
+    )
+   ans
   }
+
 
 
   def union(other : TweetSet) : TweetSet = {
-    other union left union right incl elem
+    //other union left union right incl elem
+
+    //((left union right) union other) incl elem  //rank 2nd
+    /*
+      (left union right)  will become
+      ((leftleft union leftright) union right incl left.elem ) union other incl elem)
+      this will go on until left union right is finished which means, everytime an elem is "removed" from
+      the tree it will take the whole traversal of the tree O(n^2) + O(insertion roughly n^2)
+
+     1.(this-elem) union other incl elem
+     2.(this -elem1 -elem2) union other incl elem2 elem 1
+     basically recursively reduces the tree by 1 element while building back the tree
+     final end:
+     empty union other incl elem n ....  incl elem1
+     */
+
+    //(left union (right union other)) incl elem  //rank 3rd SUPER SLOW
+    /*
+      (right union other) will reduce too => (rightleft union [rightright union other]) incl rightelem
+      so
+      -> (left union ({rightleft union [rightright union other]} incl rightelem)) incl elem
+      recurse until rightright will reduce too empty
+      and then rightleft union other+rightright will repeat the process
+      until rightleft will be empty
+
+      The problem lies in say rightright is empty under the below expression resulting in other, we will traverse rightleft
+      -> (left union ({rightleft union [rightright union other]} incl rightelem)) incl elem
+      -> (left union ({rightleft union other} incl rightelem)) incl elem
+      -> (left union ({rightleftleft union [rightrightright union other]} incl rightelem)) incl elem
+
+
+      =>
+
+      so after that
+      (left union right+other) incl elem
+      and it is not done yet,
+      it will be
+      (leftleft union [leftright union right+other]) incl left elem
+
+
+      running time:
+
+      recursive end:
+       (empty union left+other+right) incl elem
+     */
+
+
+    left union (right union (other incl elem))  //fastest
+    /*
+        left union (right union other+elem)
+        (right union other+elem) will reduce too -> (rightleft union (rightright union (other+elem incl rightelem))
+        so
+        -> left union (rightleft union (rightright union (other+elem incl right elem)))
+        -> left union (rightleft union (rightright union (other+elem+rightelem))
+        notice that *this* tree is shortenned  everytime it goes down
+        unlike the other methods where it will recurse down until Empty is found
+        and incl will be used to rebuilt the tree minus elem. Which means that everytime an elem is included
+        in other, a traversal is required.
+
+     */
   }
 
+  /*
+    val rightMergeOther = right union other
+    val leftMerge = left union rightMergeOther
+    val addElem = leftMerge.addElem
+    addElem
+   */
+
   def isEmpty: Boolean = false
-  def mostRetweeted: Tweet = {
-    //traverse all and return 1 tweet
-    val leftMost = if(!left.isEmpty)left.mostRetweeted else null
-    val rightMost = if(!right.isEmpty)right.mostRetweeted else null
-    if(leftMost == null && rightMost == null){
-      elem
-    }
-    else if(leftMost != null){
-      if(elem.retweets > leftMost.retweets)
-        elem
-      else
-        leftMost
-    }
-    else if(rightMost != null){
-      if(elem.retweets > rightMost.retweets)
-        elem
-      else
-        rightMost
-    }
-    else{
-      if(elem.retweets >= rightMost.retweets && elem.retweets >= leftMost.retweets)
-        elem
-      else if(rightMost.retweets >= elem.retweets && rightMost.retweets >= leftMost.retweets)
-        rightMost
-      else
-        leftMost
-    }
+
+  def mostRetweeted() : Tweet = {
+    var currentMax =elem
+    this.foreach(
+      (x : Tweet) =>
+         if(x.retweets > currentMax.retweets)
+           currentMax = x
+    )
+    currentMax
   }
 
 
@@ -272,7 +332,6 @@ object GoogleVsApple {
   val google = List("android", "Android", "galaxy", "Galaxy", "nexus", "Nexus")
   val apple = List("ios", "iOS", "iphone", "iPhone", "ipad", "iPad")
 
-
   val all = TweetReader.allTweets
   lazy val googleTweets: TweetSet =
     all.filter(
@@ -284,18 +343,20 @@ object GoogleVsApple {
     all.filter(
     (elem : Tweet) =>
       apple.exists((str: String) => elem.text.contains(str))
-    )
+  )
+
 
 
   /**
    * A list of all tweets mentioning a keyword from either apple or google,
    * sorted by the number of retweets.
    */
-     lazy val trending: TweetList = googleTweets.union(appleTweets).descendingByRetweet
+     lazy val trending: TweetList = googleTweets.descendingByRetweet
   }
 
 object Main extends App {
 
   // Print the trending tweets
   GoogleVsApple.trending foreach println
+
 }
