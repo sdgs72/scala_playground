@@ -1,5 +1,7 @@
 package forcomp
 
+import forcomp.Anagrams.sentenceOccurrences
+
 
 object Anagrams {
 
@@ -34,10 +36,18 @@ object Anagrams {
    *
    *  Note: you must use `groupBy` to implement this method!
    */
-  def wordOccurrences(w: Word): Occurrences = ???
+  def wordOccurrences(w: Word): Occurrences = w.groupBy((c : Char) => c.toLower).toList.map(
+    (x : (Char,String)) => (x._1,x._2.length)
+  ).sortWith( (pair1 : (Char,Int) , pair2 : (Char,Int)) =>
+      pair1._1 < pair2._1
+  )
 
   /** Converts a sentence into its character occurrence list. */
-  def sentenceOccurrences(s: Sentence): Occurrences = ???
+  def sentenceOccurrences(s: Sentence): Occurrences = {
+    wordOccurrences(s.foldLeft("")((w1 : Word, w2 : Word) =>
+        w1 + w2
+    ))
+  }
 
   /** The `dictionaryByOccurrences` is a `Map` from different occurrences to a sequence of all
    *  the words that have that occurrence count.
@@ -54,10 +64,17 @@ object Anagrams {
    *    List(('a', 1), ('e', 1), ('t', 1)) -> Seq("ate", "eat", "tea")
    *
    */
-  lazy val dictionaryByOccurrences: Map[Occurrences, List[Word]] = ???
+  lazy val dictionaryByOccurrences: Map[Occurrences, List[Word]] = {
+    dictionary.groupBy((w : Word) => wordOccurrences(w))
+  }
 
   /** Returns all the anagrams of a given word. */
-  def wordAnagrams(word: Word): List[Word] = ???
+  def wordAnagrams(word: Word): List[Word] = {
+    dictionaryByOccurrences.get(wordOccurrences(word)) match{
+      case Some(elem) => elem
+      case _ => Nil
+    }
+  }
 
   /** Returns the list of all subsets of the occurrence list.
    *  This includes the occurrence itself, i.e. `List(('k', 1), ('o', 1))`
@@ -81,9 +98,31 @@ object Anagrams {
    *  Note that the order of the occurrence list subsets does not matter -- the subsets
    *  in the example above could have been displayed in some other order.
    */
-  def combinations(occurrences: Occurrences): List[Occurrences] = ???
+  def combinations(occurrences: Occurrences): List[Occurrences] = {
+    def combinationsHelper(occurrences: Occurrences): List[Occurrences] = {
+      if (occurrences.isEmpty) List(List())
+      else {
+        val temp : List[Occurrences] = {
+          val (c,n) = occurrences.head
+          val previousResult : List[Occurrences]= combinationsHelper(occurrences.tail)
+          val beforeResult : IndexedSeq[Occurrences]=
+          for {
+            i : Int <- 1 until n+1
+            previousResultElem : Occurrences <- previousResult
+          }
+            yield (c,i) :: previousResultElem
+            beforeResult.toList ::: previousResult
+        }
+        temp
+      }
+    }
+    val result = combinationsHelper(occurrences)
+    println(result.toString)
+    result
+  }
 
-  /** Subtracts occurrence list `y` from occurrence list `x`.
+
+    /** Subtracts occurrence list `y` from occurrence list `x`.
    *
    *  The precondition is that the occurrence list `y` is a subset of
    *  the occurrence list `x` -- any character appearing in `y` must
@@ -92,8 +131,26 @@ object Anagrams {
    *
    *  Note: the resulting value is an occurrence - meaning it is sorted
    *  and has no zero-entries.
-   */
-  def subtract(x: Occurrences, y: Occurrences): Occurrences = ???
+    *  Hint: you can use `foldLeft`, and `-`, `apply` and `updated` operations on `Map`.
+    */
+  def subtract(x: Occurrences, y: Occurrences): Occurrences = {
+    //transform to map
+
+    val mapY = y.groupBy((pair : (Char,Int)) => pair._1)
+    val xResult : Occurrences = x.map(
+      (pair : (Char,Int)) => {
+        val reduceBy : Int = mapY.get(pair._1) match {
+         case Some(elem) => elem.head._2
+         case None => 0
+        }
+        val result = pair._2 - reduceBy
+          (pair._1,result)
+      }
+    )
+    xResult.filter(
+      (pair : (Char,Int)) => pair._2 > 0
+    )
+  }
 
   /** Returns a list of all anagram sentences of the given sentence.
    *
@@ -135,5 +192,29 @@ object Anagrams {
    *
    *  Note: There is only one anagram of an empty sentence.
    */
-  def sentenceAnagrams(sentence: Sentence): List[Sentence] = ???
+  def sentenceAnagrams(sentence: Sentence): List[Sentence] = {
+    val sentenceOccurent : Occurrences = sentenceOccurrences(sentence)
+    def sentenceAnagramsHelper(currentOccu : Occurrences) : List[Sentence] = {
+      if(currentOccu.isEmpty) List(List())
+      else{
+        val result =
+        for {
+          elem: Occurrences <- combinations(currentOccu)
+          word : Word<- dictionaryByOccurrences.get(elem) match {
+            case Some(x) => x
+            case None => Nil    //very important
+          }
+          substracted = subtract(currentOccu,elem)
+          sentence : Sentence <- sentenceAnagramsHelper(substracted)
+        }
+          yield word::sentence
+        result
+      }
+    }
+    sentenceAnagramsHelper(sentenceOccurent)
+  }
+
+
 }
+
+

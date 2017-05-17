@@ -1,0 +1,393 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes
+compile options:
+1 items
+0 -> -deprecation
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+29 items
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/common/package$$anonfun$subFile$1.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/common/package$.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/common/package.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$$anonfun$1.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$$anonfun$2.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$CodeTree.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$Fork$.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$Fork.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$Leaf$.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$Leaf.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/main$.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/main$delayedInit$body.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/main.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$$anon$1.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$Number$.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$Number.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$Sum$.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$Sum.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$child1.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$child2.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$expr.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$function.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$grandParent.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$interface2.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$myFunc.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$parent.class
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes.class
+binary dependencies:
+6 items
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> /Users/dionhiananto/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> /Users/dionhiananto/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> /Users/dionhiananto/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+29 items
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> common.package
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> common.package$
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> common.package$$anonfun$subFile$1
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.Huffman
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$$anonfun$1
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$$anonfun$2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$CodeTree
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$Fork
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$Fork$
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$Leaf
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$Leaf$
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.main
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.main$
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat.main$delayedInit$body
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$$anon$1
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$Number
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$Number$
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$Sum
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$Sum$
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$child1
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$child2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$expr
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$function
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$grandParent
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$interface2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$myFunc
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat.notes$parent
+used names:
+216 items
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> ::
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> <init>
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> <repeated>
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> Any
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> AnyRef
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> File
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> FileInputStream
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> InputStream
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> List
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> None
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> Nothing
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> Option
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> Predef
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> String
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> _root_
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> child
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> children
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> classesDir
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> common
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> exists
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> file
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> foldLeft
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> getClass
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> getParentFile
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> getResource
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> io
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> java
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> package
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> projectDir
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> resourceFile
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> resourcePath
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> scala
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> subFile
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> toURI
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> &&
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> +
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> ::
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> :::
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> <
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> <init>
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> ==
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> AbstractFunction2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> AbstractFunction4
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> AnyRef
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> App
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Bit
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Boolean
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Char
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> CodeTable
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> CodeTree
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Fork
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Function1
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Huffman
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Int
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Leaf
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> List
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Nil
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> None
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Predef
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Product
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> ScalaRunTime
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Serializable
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Statics
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> String
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> Tuple2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> _1
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> _2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> _root_
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> _toString
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> a
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> acc
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> accContains
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> anyHash
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> apply
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> asInstanceOf
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> augmentString
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> b
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> bits
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> bits2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> c
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> char
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> chars
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> codeBits
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> codeTable
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> codeTreeList
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> combine
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> common
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> contains
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> convert
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> count
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> countChar
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> decode
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> decodeHelper
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> decoded
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> decodedM
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> encode
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> encodeChar
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> encodeHelper
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> encoded
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> eq
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> f
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> finalizeHash
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> frenchCode
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> freqTable
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> freqs
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> head
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> head1
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> head2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> immutable
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> insertCodeTree
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> insertLeaf
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> isEmpty
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> isInstanceOf
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> leafNodes
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> left
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> leftTable
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> ls
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> main
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> makeCodeTree
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> makeOrderedLeafList
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> mergeCodeTables
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> mix
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> newTree
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> oriTree
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> package
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> patmat
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> println
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> quickEncode
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> quickEncodeHelper
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> quickEncoded
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> reduced
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> right
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> rightTable
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> runtime
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> scala
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> secret
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> singleton
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> str
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> table
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> tail
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> text
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> times
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> timesHelper
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> toInt
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> toList
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> toString
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> traversedTree
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> tree
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> treeContain
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> trees
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> typedProductIterator
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> unary_!
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> until
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> w
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> weight
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> x
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> xs
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> xxx
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> yyy
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> zzz
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> ||
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> $anon
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> &&
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> *
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> +
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> <init>
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> ==
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> A
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> AbstractFunction1
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> AbstractFunction2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> AnyRef
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> B
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> Double
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> Int
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> List
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> None
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> Number
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> Product
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> S
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> ScalaRunTime
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> Serializable
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> Statics
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> Sum
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> Unit
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> _hashCode
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> _toString
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> apply
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> asInstanceOf
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> child1
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> child2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> e1
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> e2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> eq
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> eval
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> expr
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> f
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> finalizeHash
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> function
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> grandParent
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> interface2
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> isInstanceOf
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> mix
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> myFunc
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> n
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> notes
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> package
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> param1
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> parent
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> patmat
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> runtime
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> scala
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> toDouble
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> toString
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> typedProductIterator
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> x
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> ||
+product stamps:
+29 items
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/common/package$$anonfun$subFile$1.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/common/package$.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/common/package.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$$anonfun$1.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$$anonfun$2.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$CodeTree.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$Fork$.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$Fork.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$Leaf$.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman$Leaf.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/Huffman.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/main$.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/main$delayedInit$body.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/main.class -> lastModified(1494760392000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$$anon$1.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$Number$.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$Number.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$Sum$.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$Sum.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$child1.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$child2.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$expr.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$function.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$grandParent.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$interface2.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$myFunc.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes$parent.class -> lastModified(1494743315000)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/target/scala-2.11/classes/patmat/notes.class -> lastModified(1494743315000)
+source stamps:
+3 items
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> hash(885b8f12a5b2a83dad658f76cc1fdd678a38d4a8)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> hash(f40b4c8019dafe35afd206de04e524d6371b66a1)
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> hash(4506af145118cb413b657b2dacda1a4c5520aa30)
+binary stamps:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1466589303000)
+/Users/dionhiananto/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1435004218000)
+class names:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/dionhiananto/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.Serializable
+internal apis:
+3 items
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCH2I3RAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMm+MXx0AAZub3RpZnlzcQB+AAyE/M00dAAHcGFja2FnZXNxAH4ADCYSurZ0AAR3YWl0c3EAfgAM8efqjHQADSRhc0luc3RhbmNlT2ZzcQB+AAzNivwPdAAGZXF1YWxzc3EAfgAM8WxUaXQADGFzSW5zdGFuY2VPZnNxAH4ADM7IhUp0AAxzeW5jaHJvbml6ZWRzcQB+AAxYw5T1dAANJGlzSW5zdGFuY2VPZnNxAH4ADKo9iEt0ABdyZXNvdXJjZUFzU3RyZWFtRnJvbVNyY3NxAH4ADIN8vFN0AAlub3RpZnlBbGxzcQB+AAwmJKnKdAAMaXNJbnN0YW5jZU9mc3EAfgAMacTab3QAAz8/P3NxAH4ADJp6YJF0AAI9PXNxAH4ADPKN8FN0AAVjbG9uZXNxAH4ADGdM1iN0AAdzdWJGaWxlc3EAfgAMJCvh6HQACHRvU3RyaW5nc3EAfgAMP7rEanQAAiE9c3EAfgAMCJe6qnQACGdldENsYXNzc3EAfgAMCCpDk3QAAm5lc3EAfgAMGnQJi3QAAmVxc3EAfgAMkxI1z3QAAiMjc3EAfgAMjXTkU3QACGZpbmFsaXplc3EAfgAMVNQ/iHQACGhhc2hDb2Rlc3EAfgAMe21E9HQAAyoqKnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA5jb21tb24ucGFja2FnZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF8AcHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGhzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZ3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZ3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AhHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AhXNxAH4AeHQAA0FueXNxAH4AfHNxAH4Af3VxAH4AggAAAAJzcQB+AIR0AAVzY2FsYXEAfgCLdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGY29tbW9uc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcBaTjrnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AF8vVXNlcnMvZGlvbmhpYW5hbnRvL0Rlc2t0b3AvZ2l0aHViL3NjYWxhX3BsYXlncm91bmQvcGF0bWF0IC0gbGVzc29uIDQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIhbjxKlsqg9rWWPdswf3WeKONSo
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAA0AlrAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAATnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHfEe6Z0AAppbnNlcnRMZWFmc3EAfgAMRhNdkHQABm5vdGlmeXNxAH4ADBKUhrN0AAxtYWtlQ29kZVRyZWVzcQB+AAww19/AdAAGc2VjcmV0c3EAfgAM+eYOCXQAB3VuYXBwbHlzcQB+AAymkAlEdAAGZW5jb2Rlc3EAfgAMYbD+jXQABndlaWdodHNxAH4ADHtAd9p0AAdjdXJyaWVkc3EAfgAMupKltXQABHdhaXRzcQB+AAw/TF2FdAAOY29weSRkZWZhdWx0JDJzcQB+AAy1bqtjdAANJGFzSW5zdGFuY2VPZnNxAH4ADKPlRAp0AAhkZWNvZGVkTXNxAH4ADKFPmqN0AAxwcm9kdWN0QXJpdHlzcQB+AAzQfhzqdAAGZXF1YWxzc3EAfgAMU0v47nQAC3F1aWNrRW5jb2Rlc3EAfgAMZ6+lkHQADGFzSW5zdGFuY2VPZnNxAH4ADIspin50AA5leGVjdXRpb25TdGFydHNxAH4ADHfRBal0AAxzeW5jaHJvbml6ZWRzcQB+AAwzgt2YdAAEbGVmdHNxAH4ADK97ra50AAFhc3EAfgAMjJR/73QADSRpc0luc3RhbmNlT2ZzcQB+AAzkbWOYdAAGdHVwbGVkc3EAfgAM5YxKkHQAB0h1ZmZtYW5zcQB+AAyyAb9edAAJY29kZVRhYmxlc3EAfgAMrzPg1XQACGNhbkVxdWFsc3EAfgAM3LgqmXQADmNvcHkkZGVmYXVsdCQ0c3EAfgAMMJg/NXQABG1haW5zcQB+AAzpowCHdAAEY2hhcnNxAH4ADLgUBvx0AAZkZWNvZGVzcQB+AAxnteCcdAAETGVhZnNxAH4ADNSf+JB0AAhjb2RlQml0c3NxAH4ADBcJEvp0AAdlbmNvZGVkc3EAfgAMBIXUZHQADXByb2R1Y3RQcmVmaXhzcQB+AAwhInMhdAAFdW50aWxzcQB+AAzWsoCxdAAKZnJlbmNoQ29kZXNxAH4ADDip1Qd0AAlub3RpZnlBbGxzcQB+AAyL3AEJdAALcmVhZFJlc29sdmVzcQB+AAzqxhkOdAAFY2hhcnNzcQB+AAyE+HlxdAAMaXNJbnN0YW5jZU9mc3EAfgAMQIhJJHQACWNvdW50Q2hhcnNxAH4ADDRxsyN0AAY8aW5pdD5zcQB+AAzb7l0ZdAAFYXBwbHlzcQB+AAz+TOuvdAANZGVjb2RlZFNlY3JldHNxAH4ADBbUe710AAI9PXNxAH4ADM0fRqJ0AAVjbG9uZXNxAH4ADBgXJOF0AA9tZXJnZUNvZGVUYWJsZXNzcQB+AAwWjM3WdAALdGltZXNIZWxwZXJzcQB+AAwIKvVAdAAFdGltZXNzcQB+AAzzaPoydAAHY29tYmluZXNxAH4ADJombp50AA5jb3B5JGRlZmF1bHQkM3NxAH4ADL4+j3J0AARjb3B5c3EAfgAMX9xEyHQADHN0cmluZzJDaGFyc3NxAH4ADCHQ4px0AAh0b1N0cmluZ3NxAH4ADMr2xKh0AARhcmdzc3EAfgAMjocP53QACXNpbmdsZXRvbnNxAH4ADMI7VB50AAIhPXNxAH4ADNbxAFF0AAhnZXRDbGFzc3NxAH4ADBoL2sF0AAlDb2RlVGFibGVzcQB+AAxHYPjfdAAOY3JlYXRlQ29kZVRyZWVzcQB+AAxF8kE2dAAOY29weSRkZWZhdWx0JDFzcQB+AAz2rUQ8dAAERm9ya3NxAH4ADCXGoJJ0AANCaXRzcQB+AAyu2QSLdAACbmVzcQB+AAxDwK/IdAATbWFrZU9yZGVyZWRMZWFmTGlzdHNxAH4ADMC1x3l0AA5pbnNlcnRDb2RlVHJlZXNxAH4ADBdybat0AAhDb2RlVHJlZXNxAH4ADHlUps90AAJlcXNxAH4ADId5BKh0AAdjb252ZXJ0c3EAfgAM5zrx5XQAB2RlY29kZWRzcQB+AAxeHu7VdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMGa0uBnQABXJpZ2h0c3EAfgAMREmdPXQAC2RlbGF5ZWRJbml0c3EAfgAMNqz9GXQAAiMjc3EAfgAMmte+AXQADHF1aWNrRW5jb2RlZHNxAH4ADGlV5R50AAhmaW5hbGl6ZXNxAH4ADFUl1x50AA5wcm9kdWN0RWxlbWVudHNxAH4ADKwVh7F0AAhoYXNoQ29kZXNxAH4ADFrVloh0AAthY2NDb250YWluc3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ALN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA5wYXRtYXQuSHVmZm1hbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AMx4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AMsAcHNxAH4A0HNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCzTAAJaW5oZXJpdGVkcQB+ALNMAAdwYXJlbnRzcQB+ALN4cQB+ANRzcQB+AMsAcHNxAH4A0HVxAH4ArgAAAABzcQB+AMsAcHNxAH4A0HVxAH4ArgAAAABzcQB+AMsAcHNxAH4A0HVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4A03QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4A03NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4A8HQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4A8XNxAH4A5HQAA0FueXNxAH4A6HNxAH4A63VxAH4A7gAAAAJzcQB+APB0AAVzY2FsYXEAfgD3c3EAfgCwcQB+AL11cQB+AL4AAAAAc3EAfgDAAHQAC3BhdG1hdC5tYWludXEAfgDDAAAAAHEAfgDHdXEAfgDJAAAAAnQAEHNjYWxhLmRlcHJlY2F0ZWR0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3NxAH4AywBwc3EAfgDQcQB+ANVzcQB+AMsAcHNxAH4A0HNxAH4A2HNxAH4AywBwc3EAfgDQdXEAfgCuAAAAAHNxAH4AywBwc3EAfgDQdXEAfgCuAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgC0cQB+AL11cQB+AL4AAAABc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXEAfgETeHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADUwABXZhbHVlcQB+AA14cHQAAHQAKigibWFpbiBzaG91bGQgbm90IGJlIG92ZXJyaWRkZW4iLCIyLjExLjAiKXNxAH4A5HQAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3EAfgDoc3EAfgDrdXEAfgDuAAAAAnNxAH4A8HEAfgD+cQB+APdzcQB+AMAAdAAEbWFpbnVxAH4AwwAAAABzcQB+AOR0AARVbml0cQB+ASJ1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgETeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgDGdAAFUGxhaW5xAH4AeXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4A5VsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4A03NxAH4A5HQABUFycmF5cQB+ASJ1cQB+AOIAAAABc3EAfgDkdAAGU3RyaW5nc3EAfgDoc3EAfgDrdXEAfgDuAAAAA3NxAH4A8HEAfgDzc3EAfgDwcQB+APVxAH4A93NxAH4AywBwc3EAfgDQdXEAfgDiAAAABHNxAH4A5HQAA0FwcHEAfgEic3EAfgDkdAALRGVsYXllZEluaXRxAH4BInNxAH4A5HEAfgDncQB+AUBzcQB+AORxAH4A+XEAfgEidXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGcGF0bWF0c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcBql3aXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AF8vVXNlcnMvZGlvbmhpYW5hbnRvL0Rlc2t0b3AvZ2l0aHViL3NjYWxhX3BsYXlncm91bmQvcGF0bWF0IC0gbGVzc29uIDQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPQLTIAZ2v41r9IG3gTlJNY3G2ah
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCJfBW6AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAN3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cNPUPIB0AAZub3RpZnlzcQB+AAxbeJX5dAAHdW5hcHBseXNxAH4ADFjKn6B0AAdjdXJyaWVkc3EAfgAMA241snQABnBhcmVudHNxAH4ADKrDBdp0AAF4c3EAfgAM52K6RnQAC3JlY3Vyc2VMaXN0c3EAfgAM3CC7JHQACnRpZ2h0Qm91bmRzcQB+AAwp0ugBdAAEd2FpdHNxAH4ADCOjdnF0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADAdrArt0AA0kYXNJbnN0YW5jZU9mc3EAfgAMGTr3P3QABmNoaWxkMnNxAH4ADH3Qu2B0AAdjb21wb3Nlc3EAfgAMonFCUnQAAmUxc3EAfgAMNOZKinQADHByb2R1Y3RBcml0eXNxAH4ADAxURa10AAZlcXVhbHNzcQB+AAw8enKwdAAGTnVtYmVyc3EAfgAM8RQ2fHQADXJldHVyblN1YnR5cGVzcQB+AAzYWEXCdAAMYXNJbnN0YW5jZU9mc3EAfgAM8h6si3QAAWZzcQB+AAzqKN4HdAAMc3luY2hyb25pemVkc3EAfgAMGw6bIXQADSRpc0luc3RhbmNlT2ZzcQB+AAwXw1BMdAAHYW5kVGhlbnNxAH4ADNjjs/Z0AAZ0dXBsZWRzcQB+AAxOT4PIdAAEZXhwcnNxAH4ADGhf44F0AAhjYW5FcXVhbHNxAH4ADCKPIo50AA1wcm9kdWN0UHJlZml4c3EAfgAMNwL2m3QACW5vdGlmeUFsbHNxAH4ADEKBUyd0AAtyZWFkUmVzb2x2ZXNxAH4ADLyYVQR0AAxpc0luc3RhbmNlT2ZzcQB+AAymyYRZdAAEZXZhbHNxAH4ADHmtob50AANTdW1zcQB+AAw9IB0/dAAGPGluaXQ+c3EAfgAMQ6zLXHQABWFwcGx5c3EAfgAM4v00dHQAAj09c3EAfgAMJDvZQnQABWNsb25lc3EAfgAMCgYfgHQACGZ1bmN0aW9uc3EAfgAMnlva/3QABm15RnVuY3NxAH4ADH23/4V0AARjb3B5c3EAfgAMbkCMs3QACHRvU3RyaW5nc3EAfgAMUbpjjnQAD3JldHVyblN1cGVyVHlwZXNxAH4ADIIzsWZ0AAVub3Rlc3NxAH4ADM9oXph0AAIhPXNxAH4ADLW+l590AAhnZXRDbGFzc3NxAH4ADE7tdIp0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADHBzRCR0AAJlMnNxAH4ADCO4S2B0AAJuZXNxAH4ADOA/0fR0AAtncmFuZFBhcmVudHNxAH4ADClGLR10AAJlcXNxAH4ADOIGzuR0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAzquHOYdAAKaW50ZXJmYWNlMnNxAH4ADATURdF0AAIjI3NxAH4ADPKhRqx0AAhmaW5hbGl6ZXNxAH4ADKZrtPV0AA5wcm9kdWN0RWxlbWVudHNxAH4ADPzd0rB0AAhoYXNoQ29kZXNxAH4ADPAok3J0AAZjaGlsZDFzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCFeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAMcGF0bWF0Lm5vdGVzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCeeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCdAHBzcQB+AKJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AhUwACWluaGVyaXRlZHEAfgCFTAAHcGFyZW50c3EAfgCFeHEAfgCmc3EAfgCdAHBzcQB+AKJ1cQB+AIAAAAAAc3EAfgCdAHBzcQB+AKJ1cQB+AIAAAAAAc3EAfgCdAHBzcQB+AKJ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AKV0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AKVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AMJ0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AMNzcQB+ALZ0AANBbnlzcQB+ALpzcQB+AL11cQB+AMAAAAACc3EAfgDCdAAFc2NhbGFxAH4AyXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABnBhdG1hdHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXAWk4651cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABfL1VzZXJzL2Rpb25oaWFuYW50by9EZXNrdG9wL2dpdGh1Yi9zY2FsYV9wbGF5Z3JvdW5kL3BhdG1hdCAtIGxlc3NvbiA0L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRFBq8UURjLQTtley2s2hpMVSCqMA==
+external apis:
+0 items
+source infos:
+3 items
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/common/package.scala -> 
+AAAAAAAAAAA=
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/Huffman.scala -> 
+AAAAAAAAAAA=
+/Users/dionhiananto/Desktop/github/scala_playground/patmat - lesson 4/src/main/scala/patmat/notes.scala -> 
+AAAAAAAAAAA=
+compilations:
+4 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXAWk4651cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXy9Vc2Vycy9kaW9uaGlhbmFudG8vRGVza3RvcC9naXRodWIvc2NhbGFfcGxheWdyb3VuZC9wYXRtYXQgLSBsZXNzb24gNC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXAW1O651cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXy9Vc2Vycy9kaW9uaGlhbmFudG8vRGVza3RvcC9naXRodWIvc2NhbGFfcGxheWdyb3VuZC9wYXRtYXQgLSBsZXNzb24gNC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXAaCWAp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXy9Vc2Vycy9kaW9uaGlhbmFudG8vRGVza3RvcC9naXRodWIvc2NhbGFfcGxheWdyb3VuZC9wYXRtYXQgLSBsZXNzb24gNC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXAapd2l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXy9Vc2Vycy9kaW9uaGlhbmFudG8vRGVza3RvcC9naXRodWIvc2NhbGFfcGxheWdyb3VuZC9wYXRtYXQgLSBsZXNzb24gNC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
